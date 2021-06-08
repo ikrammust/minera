@@ -6,7 +6,7 @@
     <title>minera.</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Rubik:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <div class="container">
@@ -25,9 +25,9 @@
             </ul>
             <div class="empty"></div>
             <ul class="icon-menu">
-                <li class="icon"><a href="#"><img src="img/search.png" alt="Search"></a></li>
-                <li class="icon"><a href="#"><img src="img/user.png" alt="user"></a></li>
-                <li class="icon"><a href="#"><img src="img/cart.png" alt="cart"></a></li>
+                <li class="icon"><a href="#"><img src="assets/img/search.png" alt="Search"></a></li>
+                <li class="icon"><a href="#"><img src="assets/img/user.png" alt="user"></a></li>
+                <li class="icon"><a href="#"><img src="assets/img/cart.png" alt="cart"></a></li>
             </ul>
             <!-- Hamburger menu -->
             <div class="menu-toggle">
@@ -62,7 +62,7 @@
         <!-- end of Header -->
 
         <!-- Product Gallery -->
-        <section class="gallery">
+        <main class="gallery">
             <h1>#most.popular</h1>
             <ul class="list-product">
                 <li><a href="#">Furniture</a></li>
@@ -113,11 +113,11 @@
 
             </div>
             
-        </section>
+        </main>
         <!-- end of Product Gallery -->
 
         <!-- Testimonial -->
-        <section class="testimonial">
+        <article class="testimonial">
             <div class="testi">
                 <h1>#testimonial</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium asperiores iure cupiditate similique amet saepe soluta quas voluptatem nisi labore.</p>
@@ -125,15 +125,15 @@
             <div class="content-testi">
                 <p class="words">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non molestiae iusto nisi, nemo blanditiis ab, voluptates earum quia animi obcaecati cupiditate nam dolores! Minus quidem blanditiis impedit atque rem porro?</p>
                 <div class="user">
-                    <img src="img/mine.jpg" alt="mine">
+                    <img src="assets/img/mine.jpg" alt="mine">
                     <p class="word"><b>Ikram mustofa Kamal </b><br> <span style="opacity: 0.5;">Front End Developer</span></p>
                 </div>
             </div>
-        </section>
+        </article>
         <!-- end of Testimonial -->
 
         <!-- Dropdown -->
-        <section class="dropdown">
+        <aside class="dropdown">
 
             <div class="all-product">
                 <ul class="woman">
@@ -176,9 +176,9 @@
                 <div class="left">
                     <p>FOLLOW US</p>
                     <ul class="social">
-                        <li><a href="#"><img src="img/facebook.png" alt=""></a></li>
-                        <li><a href="#"><img src="img/twitter.png" alt=""></a></li>
-                        <li><a href="#"><img src="img/instagram.png" alt=""></a></li>
+                        <li><a href="#"><img src="assets/img/facebook.png" alt=""></a></li>
+                        <li><a href="#"><img src="assets/img/twitter.png" alt=""></a></li>
+                        <li><a href="#"><img src="assets/img/instagram.png" alt=""></a></li>
                     </ul>
                 </div>
                 <div class="right">
@@ -190,7 +190,7 @@
                 </div>
             </div>
 
-        </section>
+        </aside>
         <!-- end of Dropdown -->
 
         <!-- Footer -->
@@ -198,23 +198,15 @@
             <h2>minera.</h2>
             <p>© 2021 Minera. All Rights Reserved Coded by chrome_</p>
             <ul class="payment">
-                <li><img src="img/mastercard.png" alt=""></li>
-                <li><img src="img/visa.png" alt=""></li>
-                <li><img src="img/paypal.png" alt=""></li>
-                <li><img src="img/bitcoin.png" alt=""></li>
+                <li><img src="assets/img/mastercard.png" alt=""></li>
+                <li><img src="assets/img/visa.png" alt=""></li>
+                <li><img src="assets/img/paypal.png" alt=""></li>
+                <li><img src="assets/img/bitcoin.png" alt=""></li>
             </ul>
         </footer>
         <!-- end of Footer -->
 
     </div>
-
-    <script>
-        const menuToggle = document.querySelector('.menu-toggle input');
-        const nav = document.querySelector('nav ul');
-    
-        menuToggle.addEventListener('click', function() {
-            nav.classList.toggle('slide');
-        });
-    </script>
+<script src="app.js"></script>
 </body>
 </html>
